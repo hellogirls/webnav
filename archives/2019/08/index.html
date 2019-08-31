@@ -84,56 +84,189 @@
                     <img class="ui centered image" src="./img/logo-white.svg" alt="Logo">
                 </h1>
                 <h2 class="ui inverted header">HELLOGIRLS - 小X福利导航 - 这里只有精品！</h2>
-                <div class="ui inverted fluid left icon right action input error" id="search-div">
+                <div class="ui inverted fluid left icon right action input" id="search-div">
                     <i class="search icon"></i>
-                    <input id="search-query" type="text" placeholder="请输入搜索内容" autofocus="autofocus">
-                    <div class="ui compact selection dropdown" tabindex="0"><select id="search-services">
-                        <option id="baidu" value="baidu" data-url="https://www.baidu.com/s?wd=" data-suffix="&amp;ie=utf-8">百度</option>
-                        
+                    <input id="search-query" type="text" placeholder="请输入搜索内容" autofocus="autofocus" autocomplete="off">
+                    <div class="ui compact selection dropdown" tabindex="0">
+                        <select id="search-services">
                             
-                                <option id="huashe" value="huashe" data-url="https://huas.life/?s=" data-suffix="&amp;ie=utf-8">花社1</option>
+                                
+                                    <option id="lst" value="lst" data-url="http://www.leisitu.vip/search.php?q=" data-suffix>蕾丝兔</option>
+                                
+                                    <option id="yxj" value="yxj" data-url="https://www.xjsp.cool/index.php?m=vod-search-wd-" data-suffix=".html">野香蕉</option>
+                                
+                                    <option id="trs" value="trs" data-url="https://www.trsdh.vip/?adref=xxfldh_com" data-suffix>唐人社</option>
+                                
+                                    <option id="ggsp" value="ggsp" data-url="https://home.qq.com.www-qq-com.com" data-suffix="black">光棍</option>
+                                
+                                    <option id="baidu" value="baidu" data-url="https://www.baidu.com/s?wd=" data-suffix>百度</option>
+                                
+                                    <option id="baidumap" value="baidumap" data-url="https://api.map.baidu.com/geocoder?address=" data-suffix>百度地图</option>
+                                
+                                    <option id="bing" value="bing" data-url="https://cn.bing.com/search?q=" data-suffix>必应</option>
+                                
+                                    <option id="wikipedia" value="wikipedia" data-url="https://www.wikipedia.org/wiki/" data-suffix>维基百科</option>
+                                
+                                    <option id="ieeexplore" value="ieeexplore" data-url="http://ieeexplore.ieee.org/search/searchresult.jsp?queryText=" data-suffix>IEEE Xplore</option>
+                                
+                                    <option id="baiduxueshu" value="baiduxueshu" data-url="https://xueshu.baidu.com/s?wd=" data-suffix>百度学术</option>
+                                
+                                    <option id="googlescholar" value="googlescholar" data-url="https://scholar.google.com/scholar?q=" data-suffix>谷歌学术</option>
+                                
+                                    <option id="etymonline" value="etymonline" data-url="https://www.etymonline.com/index.php?search=" data-suffix>Etymonline</option>
+                                
+                                    <option id="mw" value="mw" data-url="https://www.merriam-webster.com/dictionary/" data-suffix>Merriam-Webster</option>
+                                
+                                    <option id="github" value="github" data-url="https://github.com/search?q=" data-suffix>GitHub</option>
+                                
+                                    <option id="wechat" value="wechat" data-url="http://weixin.sogou.com/weixin?query=" data-suffix>微信公众号</option>
+                                
+                                    <option id="weibo" value="weibo" data-url="https://s.weibo.com/weibo/" data-suffix>微博</option>
+                                
+                                    <option id="zhihu" value="zhihu" data-url="https://www.zhihu.com/search?q=" data-suffix>知乎</option>
+                                
+                                    <option id="douban" value="douban" data-url="https://www.douban.com/search?q=" data-suffix>豆瓣</option>
+                                
+                                    <option id="jd" value="jd" data-url="http://search.jd.com/Search?keyword=" data-suffix>京东</option>
+                                
+                                    <option id="taobao" value="taobao" data-url="https://s.taobao.com/search?q=" data-suffix>淘宝</option>
+                                
+                                    <option id="xiami" value="xiami" data-url="http://www.xiami.com/search?key=" data-suffix>虾米</option>
+                                
+                                    <option id="fkdy" value="fkdy" data-url="http://ifkdy.com/?q=" data-suffix>影视</option>
+                                
+                                    <option id="panc" value="panc" data-url="https://www.panc.cc/s/" data-suffix="/td_0">胖次</option>
+                                
                             
-                                <option id="xingfu" value="xingfu" data-url="https://www.ganbi66.com/search/" data-suffix="&amp;ie=utf-8">性福1</option>
+                        </select>
+                        <i class="dropdown icon"></i>
+                        <div class="text">百度</div>
+                        <div class="menu" tabindex="-1">
+                            <div class="item active selected" data-value="lst">蕾丝兔</div>
                             
-                                <option id="ppx" value="ppx" data-url="https://www.ppx23.com/search/" data-suffix="&amp;ie=utf-8">皮皮虾1</option>
+                                
+                                    <div class="item" data-value="lst">蕾丝兔</div>
+                                
+                                    <div class="item" data-value="yxj">野香蕉</div>
+                                
+                                    <div class="item" data-value="trs">唐人社</div>
+                                
+                                    <div class="item" data-value="ggsp">光棍</div>
+                                
+                                    <div class="item" data-value="baidu">百度</div>
+                                
+                                    <div class="item" data-value="baidumap">百度地图</div>
+                                
+                                    <div class="item" data-value="bing">必应</div>
+                                
+                                    <div class="item" data-value="wikipedia">维基百科</div>
+                                
+                                    <div class="item" data-value="ieeexplore">IEEE Xplore</div>
+                                
+                                    <div class="item" data-value="baiduxueshu">百度学术</div>
+                                
+                                    <div class="item" data-value="googlescholar">谷歌学术</div>
+                                
+                                    <div class="item" data-value="etymonline">Etymonline</div>
+                                
+                                    <div class="item" data-value="mw">Merriam-Webster</div>
+                                
+                                    <div class="item" data-value="github">GitHub</div>
+                                
+                                    <div class="item" data-value="wechat">微信公众号</div>
+                                
+                                    <div class="item" data-value="weibo">微博</div>
+                                
+                                    <div class="item" data-value="zhihu">知乎</div>
+                                
+                                    <div class="item" data-value="douban">豆瓣</div>
+                                
+                                    <div class="item" data-value="jd">京东</div>
+                                
+                                    <div class="item" data-value="taobao">淘宝</div>
+                                
+                                    <div class="item" data-value="xiami">虾米</div>
+                                
+                                    <div class="item" data-value="fkdy">影视</div>
+                                
+                                    <div class="item" data-value="panc">胖次</div>
+                                
                             
-                        
-                        <option id="baidumap" value="baidumap" data-url="https://api.map.baidu.com/geocoder?address=" data-suffix="&amp;output=html">百度地图</option>
-                        <option id="bing" value="bing" data-url="https://cn.bing.com/search?q=" data-suffix>必应</option>
-                        <option id="wikipedia" value="wikipedia" data-url="https://www.wikipedia.org/wiki/" data-suffix>维基百科</option>
-                        <option id="ieeexplore" value="ieeexplore" data-url="http://ieeexplore.ieee.org/search/searchresult.jsp?queryText=" data-suffix>IEEE Xplore</option>
-                        <option id="baiduxueshu" value="baiduxueshu" data-url="https://xueshu.baidu.com/s?wd=" data-suffix>百度学术</option>
-                        <option id="googlescholar" value="googlescholar" data-url="https://scholar.google.com/scholar?q=" data-suffix>谷歌学术</option>
-                        <option id="etymonline" value="etymonline" data-url="https://www.etymonline.com/index.php?search=" data-suffix>Etymonline</option>
-                        <option id="mw" value="mw" data-url="https://www.merriam-webster.com/dictionary/" data-suffix>Merriam-Webster</option>
-                        <option id="github" value="github" data-url="https://github.com/search?q=" data-suffix>GitHub</option>
-                        <option id="wechat" value="wechat" data-url="http://weixin.sogou.com/weixin?query=" data-suffix>微信公众号</option>
-                        <option id="minapp" value="minapp" data-url="https://minapp.com/miniapp/search/?query=" data-suffix>微信小程序</option>
-                        <option id="weibo" value="weibo" data-url="https://s.weibo.com/weibo/" data-suffix>微博</option>
-                        <option id="zhihu" value="zhihu" data-url="https://www.zhihu.com/search?q=" data-suffix>知乎</option>
-                        <option id="douban" value="douban" data-url="https://www.douban.com/search?q=" data-suffix>豆瓣</option>
-                        <option id="jd" value="jd" data-url="http://search.jd.com/Search?keyword=" data-suffix="&amp;enc=utf-8">京东</option>
-                        <option id="taobao" value="taobao" data-url="https://s.taobao.com/search?q=" data-suffix>淘宝</option>
-                        <option id="xiami" value="xiami" data-url="http://www.xiami.com/search?key=" data-suffix>虾米</option>
-                        <option id="fkdy" value="fkdy" data-url="http://ifkdy.com/?q=" data-suffix>影视</option>
-                        <option id="panc" value="panc" data-url="https://www.panc.cc/s/" data-suffix="/td_0">胖次</option>
-                    </select><i class="dropdown icon"></i><div class="text">百度</div><div class="menu" tabindex="-1"><div class="item active selected" data-value="baidu">百度</div><div class="item" data-value="huas">花社</div><div class="item" data-value="xingfu">性福</div><div class="item" data-value="ppx">皮皮虾</div><div class="item" data-value="baidumap">百度地图</div><div class="item" data-value="bing">必应</div><div class="item" data-value="wikipedia">维基百科</div><div class="item" data-value="ieeexplore">IEEE Xplore</div><div class="item" data-value="baiduxueshu">百度学术</div><div class="item" data-value="googlescholar">谷歌学术</div><div class="item" data-value="etymonline">Etymonline</div><div class="item" data-value="mw">Merriam-Webster</div><div class="item" data-value="github">GitHub</div><div class="item" data-value="wechat">微信公众号</div><div class="item" data-value="minapp">微信小程序</div><div class="item" data-value="weibo">微博</div><div class="item" data-value="zhihu">知乎</div><div class="item" data-value="douban">豆瓣</div><div class="item" data-value="jd">京东</div><div class="item" data-value="taobao">淘宝</div><div class="item" data-value="xiami">虾米</div><div class="item" data-value="fkdy">影视</div><div class="item" data-value="panc">胖次</div></div></div>
+                        </div>
+                    </div>
                     <div id="search-button" class="ui black icon button">Go</div>
                 </div>
                 <div class="ui labels shortcuts">
                     
                         
-                            <a class="ui blue label" data-search-service-id="huashe"><i class="yelp icon"></i>花社1</a>
+                            
+                                <a class="ui black label" data-search-service-id="lst"><i class="yelp pink icon"></i>蕾丝兔</a>
+                            
                         
-                            <a class="ui orange label" data-search-service-id="xingfu"><i class="google play icon"></i>性福1</a>
+                            
+                                <a class="ui black label" data-search-service-id="yxj"><i class="google play orange icon"></i>野香蕉</a>
+                            
                         
-                            <a class="ui green label" data-search-service-id="ppx"><i class="hotjar icon"></i>皮皮虾1</a>
+                            
+                                <a class="ui black label" data-search-service-id="trs"><i class="hotjar red icon"></i>唐人社</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="ggsp"><i class="google yellow icon"></i>光棍</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="baidu"><i class="paw blue inverted icon"></i>百度</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="baidumap"><i class="map green inverted icon"></i>地图</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="bing">必应</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="wikipedia">维基</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="weibo">微博</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="weibo">微博</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="zhihu">知乎</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="douban">豆瓣</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="jd">京东</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="taobo">淘宝</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="xiami">虾米</a>
+                            
+                        
+                            
+                                <a class="ui black label" data-search-service-id="fkdy">影视</a>
+                            
                         
                                      
-                    <a class="ui black label" data-search-service-id="baidu"><i class="paw blue inverted icon"></i>百度</a><a class="ui black label" data-search-service-id="baidumap"><i class="map green inverted icon"></i>地图</a><a class="ui black label" data-search-service-id="bing">必应</a><a class="ui black label" data-search-service-id="wikipedia">维基</a><a class="ui black label" data-search-service-id="weibo">微博</a><a class="ui black label" data-search-service-id="zhihu">知乎</a><a class="ui black label" data-search-service-id="douban">豆瓣</a><a class="ui black label" data-search-service-id="jd">京东</a><a class="ui black label" data-search-service-id="taobao">淘宝</a><a class="ui black label" data-search-service-id="xiami">虾米</a><a class="ui black label" data-search-service-id="fkdy">影视</a>
                 </div>
                 <div class="ui inverted link list">
-                    <a class="item loading-trigger" href="http://baidu.com">本站宗旨：收录全面丶更新及时丶安全纯净丶 谢绝收录虚假欺骗丶恶意插件丶强制弹窗丶病毒木马网站</a>
+                    <a class="item loading-trigger" href="https://hellogirls.github.io/webnav/">本站宗旨：收录全面丶更新及时丶安全纯净丶 谢绝收录虚假欺骗丶恶意插件丶强制弹窗丶病毒木马网站</a>
                 </div>
             </div>
 
@@ -1761,8 +1894,9 @@
 <script src="/webnav/js/jquery.min.js"></script>
 <script src="/webnav/js/semantic.min.js"></script>
 <script src="/webnav/js/common.js"></script>
+<script src="/webnav/js/moment-with-locales.min.js"></script>
 <script src="/webnav/js/js.cookie.js"></script>
 
 <script src="/webnav/js/home.js"></script>
-<ul id="scroll"><li><a href="javascript:void(0)" id="gotoTop" title="返回顶部"><i class="arrow up icon"></i></a></li><li><a class="liuyan" href="http://baidu.com" title="去留言"><i class="comment icon"></i></a></li><li class="qr-site"><a href="javascript:void(0)" class="qr" title="网站二维码"><i class="qrcode icon"></i><span class="code"><img alt src="./img/qrcode.jpg"><b>关注有礼</b></span></a></li>  </ul>
+<ul id="scroll"><li><a href="javascript:void(0)" id="gotoTop" title="返回顶部"><i class="arrow up icon"></i></a></li><li><a class="liuyan" href="https://hellogirls.github.io/webnav/" title="去留言"><i class="comment icon"></i></a></li><li class="qr-site"><a href="javascript:void(0)" class="qr" title="网站二维码"><i class="qrcode icon"></i><span class="code"><img alt src="./img/qrcode.jpg"><b>关注有礼</b></span></a></li>  </ul>
 </div></body></html>
